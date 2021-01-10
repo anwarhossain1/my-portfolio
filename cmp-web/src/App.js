@@ -3,6 +3,8 @@ import NavBar from './components/NavBar/NavBar';
 import {BrowserRouter,Switch,Route} from 'react-router-dom';
 import home from './components/pages/home';
 import projects from './components/pages/Projects/projects';
+import Footer from './components/Footer/Footer';
+import Aboutme from './components/pages/AboutMe/Aboutme';
 function App() {
   return (
     <BrowserRouter>
@@ -10,8 +12,9 @@ function App() {
     <Switch>
       <Route path='/' exact  component={home} />
       <Route path='/projects'  component={projects} />
-      <Route path='/'  component={home} />
+      <Route path='/about-me'  component={Aboutme} />
     </Switch>
+    <Footer/>
     
     </BrowserRouter>
   );

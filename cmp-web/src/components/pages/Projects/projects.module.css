@@ -1,0 +1,50 @@
+.projectscontainer{
+    
+        font-family: 'Lora', 'Times New Roman', serif;
+        font-size: 18px;
+        color: #404040;
+        position: relative;
+        background-color: #FFFFFF;
+    
+}
+
+.row{
+    margin: 0 auto;
+    border-style: solid;
+}
+
+.h2{
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+}
+
+.projects{
+    text-align: left;
+    margin: 20px 300px;
+    padding: 30px 100px;
+    position: relative;
+}
+
+
+.projects ul{
+   
+    margin: 20px 20px;
+}
+
+.projects button{
+    margin: 5px 5px;
+    padding: 10px 10px;
+    background-color: rgb(46, 46, 48);
+    color: rgb(247, 238, 238);
+    width: 100%;
+}
+
+.projects button:hover{
+    background-color: rgb(211, 9, 77);
+    
+}
+
+
+
+

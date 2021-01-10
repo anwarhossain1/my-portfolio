@@ -27,7 +27,7 @@ function NavBar() {
                    </Link>
                </li>
                <li className='nav-item'>
-                   <Link className='nav-links' to='/' >
+                   <Link className='nav-links' to='/about-me' >
                    About Me
                    </Link>
                </li>

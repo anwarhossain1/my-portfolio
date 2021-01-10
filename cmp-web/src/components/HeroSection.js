@@ -53,6 +53,7 @@ function HeroSection() {
         <h1><strong>Hello</strong></h1>
         <p><strong>I'm Anwar Hossain</strong></p>
         <h3>I am a {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
+        <h4>Experienced in JavaScript with over 4 months of learning experience<br/> in building the web and working with technologies like ReactJS And NodeJS</h4>
         </div>
     )
 }

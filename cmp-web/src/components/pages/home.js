@@ -3,8 +3,6 @@ import '../../App.css';
 import HeroSection from '../HeroSection';
 import Cards from '../Cards/Cards';
 // import MapG from '../Map/MapG';
-import Footer from '../Footer/Footer'
-
 function home() {
     return (
         <>
@@ -12,7 +10,7 @@ function home() {
           <HeroSection/>  
           <Cards/>
           {/* <MapG/> */}
-          <Footer/>
+          
         </>
     )
 }
