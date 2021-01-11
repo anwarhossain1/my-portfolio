@@ -33,3 +33,57 @@
     position: relative;
 }
 
+.techno{
+    border-style: solid;
+    text-align: left;
+    margin: 30px 300px;
+    padding: 30px 100px;
+    position: relative;
+}
+
+.techno h1{
+    margin-bottom: 20px;
+}
+
+.techno li{
+    display: inline;
+    padding: 2px 5px;
+}
+
+.techno img{
+    height: 30px;
+    width: 30px;
+}
+
+.techno strong{
+    padding-bottom: 5px;
+}
+
+.communicate{
+    border-style: solid;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 100px;
+    position: relative;
+    background-color: rgb(236, 114, 0);
+
+}
+
+.communicate h1{
+    margin-bottom: 30px;
+}
+
+.communicate button{
+    text-align: center;
+    border: 2px solid #eea7a7;
+    padding: 20px 20px;
+    margin-left: 5px;
+    background-color:  rgb(236, 114, 0);
+    
+}
+
+button:hover{
+    background-color: rgb(39, 68, 61);
+    color: azure;
+}
+

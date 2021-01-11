@@ -27,15 +27,20 @@ function NavBar() {
                    </Link>
                </li>
                <li className='nav-item'>
-                   <Link className='nav-links' to='/about-me' >
+                   <Link className='nav-links' to='/about-me' onClick={onClickHandler}>
                    About Me
                    </Link>
                </li>
                <li className='nav-item'>
-                   <Link className='nav-links' to='/' >
-                   My Resume
+                   <Link className='nav-links' to='/contact' onClick={onClickHandler}>
+                   Contact Me
                    </Link>
                </li>
+               {/* <li className='nav-item'>
+                   <Link className='nav-links' to='/' onClick={onClickHandler} >
+                   My Resume
+                   </Link>
+               </li> */}
 
 
 

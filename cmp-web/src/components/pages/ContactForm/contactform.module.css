@@ -1,0 +1,17 @@
+.form__container{
+    font-family: 'Lora', 'Times New Roman', serif;
+    font-size: 18px;
+    color: #404040;
+    position: relative;
+    background-color: #FFFFFF;
+    width: 100%;
+
+}
+
+.form{
+    border-style: solid;
+    text-align: left;
+    margin: 20px 300px;
+    padding: 30px 100px;
+    position: relative;
+}
