@@ -1,17 +1,86 @@
 .form__container{
-    font-family: 'Lora', 'Times New Roman', serif;
-    font-size: 18px;
-    color: #404040;
-    position: relative;
-    background-color: #FFFFFF;
-    width: 100%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 
 }
 
 .form{
-    border-style: solid;
+    
     text-align: left;
     margin: 20px 300px;
     padding: 30px 100px;
     position: relative;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+
+  button{
+    
+        background-color: #404040;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        float: center;
+        text-align: center;
+        width: 100%;
+      
+  }
+
+  button:hover{
+      background-color: #f4511e;
+  }
+
+
+
+  .formtext{
+      margin:10px 50px 100px 50px;
+  }
+
+  .formtext h1{
+    color: #97BC62FF;
+    
+    margin-bottom: 20px;
+  }
+
+  .formtext a{
+      color: brown;
+      text-decoration: none;
+  }
+
+  .formtext a:hover{
+    color: coral;
+    text-decoration: underline;
+}
+
+
+  
+
+
+@media screen and (max-width:960px){
+    .form{
+        margin:auto 0;
+        padding: 5px 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }

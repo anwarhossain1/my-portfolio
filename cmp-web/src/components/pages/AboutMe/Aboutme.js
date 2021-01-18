@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Aboutme.module.css';
+import { Button } from 'react-bootstrap';
 const Aboutme = () => {
     return (
         <div className={classes.aboutme__container}>
@@ -14,11 +15,11 @@ const Aboutme = () => {
             <p><img src="https://www.flaticon.com/svg/static/icons/svg/3424/3424742.svg"/>
             I have obtained my Bachelor of Science degree in Computer Science & Engineering (CSE) from University of Asia Pacific in Dhaka, Bangladesh.
             </p>
-            <p><img src="https://www.flaticon.com/svg/static/icons/svg/1688/1688502.svg"/>
-            I am a 24 years old JavaScript developer, currently enriching my knowledge and skills in ReactJS and NodeJS.
+            <p><img src="https://www.flaticon.com/svg/vstatic/svg/3362/3362090.svg?token=exp=1610871367~hmac=102ee4a4b2c27f24ac3c74a4b57eca6f"/>
+            I am a passionate web developer, love travelling with or without motor riding, like to read books.
             </p>
-            <p><img src="https://www.flaticon.com/svg/static/icons/svg/1688/1688502.svg"/>
-            I am a 24 years old JavaScript developer, currently enriching my knowledge and skills in ReactJS and NodeJS.
+            <p><img src="https://www.flaticon.com/svg/vstatic/svg/2103/2103611.svg?token=exp=1610873562~hmac=67b022b75fc1e3500985c7037d7f59e7"/>
+            In my free time, I always try to learn new things no matter what it is Technologies or others.
             </p>
 
             </div>
@@ -56,8 +57,8 @@ const Aboutme = () => {
             <div className={classes.communicate}>
                 <h1>Get In Touch</h1>
                 <h3>If You Have Any Problem Ragarding Any Project<br/>Feel free to reach out to me!</h3>
-                <button>Contact Me</button>
-                <button>My Portfolio</button>
+                <button variant='primary' size="lg"><span>Contact Me</span></button>
+                <button><span>Portfolio</span></button>
 
 
 

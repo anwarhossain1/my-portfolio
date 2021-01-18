@@ -3,7 +3,8 @@ import '../App.css';
 import './HeroSection.css';
 import video from '../videos/video.mp4';
 import { useState, useEffect } from "react";
-const words = ["Front-end Developer...", "Programmer...","ReactJS enthusiast..."];
+const words =["Front-end Developer...", "Programmer...","ReactJS enthusiast...","Front-end Developer...", "Programmer...","ReactJS enthusiast...","Front-end Developer...", "Programmer...","ReactJS enthusiast...","Front-end Developer...", "Programmer...","ReactJS enthusiast..."];
+ 
 
 
 
@@ -53,7 +54,7 @@ function HeroSection() {
         <h1><strong>Hello</strong></h1>
         <p><strong>I'm Anwar Hossain</strong></p>
         <h3>I am a {`${words[index].substring(0, subIndex)}${blink ? "|" : " "}`}</h3>
-        <h4>Experienced in JavaScript with over 4 months of learning experience<br/> in building the web and working with technologies like ReactJS And NodeJS</h4>
+        <h4>Experienced in JavaScript with learning experience<br/> in building the web and working with technologies like ReactJS And NodeJS</h4>
         </div>
     )
 }

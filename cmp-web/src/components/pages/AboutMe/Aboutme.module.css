@@ -10,11 +10,16 @@
 }
 
 .aboutme{
-    border-style: solid;
+    
     text-align: left;
     margin: 20px 300px;
     padding: 30px 100px;
     position: relative;
+
+}
+
+.aboutme h1{
+    color:#97BC62FF;
 }
 
 .aboutme img{
@@ -26,15 +31,19 @@
 }
 
 .skills{
-    border-style: solid;
+    
     text-align: left;
     margin: 20px 300px;
     padding: 30px 100px;
     position: relative;
 }
 
+.skills h1{
+    color: #97BC62FF;
+}
+
 .techno{
-    border-style: solid;
+    
     text-align: left;
     margin: 30px 300px;
     padding: 30px 100px;
@@ -43,6 +52,7 @@
 
 .techno h1{
     margin-bottom: 20px;
+    color: #97BC62FF;
 }
 
 .techno li{
@@ -60,7 +70,7 @@
 }
 
 .communicate{
-    border-style: solid;
+    
     text-align: center;
     margin: 0 auto;
     padding: 30px 100px;
@@ -71,19 +81,62 @@
 
 .communicate h1{
     margin-bottom: 30px;
+    color:  #404040;
 }
 
 .communicate button{
-    text-align: center;
-    border: 2px solid #eea7a7;
-    padding: 20px 20px;
-    margin-left: 5px;
-    background-color:  rgb(236, 114, 0);
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
     
 }
 
-button:hover{
-    background-color: rgb(39, 68, 61);
-    color: azure;
-}
+.communicate button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .communicate  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .communicate button:hover span {
+    padding-right: 25px;
+  }
+  
+  .communicate button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+@media screen and (max-width:960px){
+    .aboutme, .skillls, .techno{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto 0;
+    }
+    .skills{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto 0;
+    }
 
+}

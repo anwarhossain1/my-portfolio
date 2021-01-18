@@ -23,27 +23,29 @@ video {
   
   .hero-container > h1 {
     color: #fff;
-    font-size: 150px;
-    margin-top: -10px;
+    font-size: 7vw;
+    margin-top: -3px;
     
   }
   .hero-container > h4 {
     color: #fff;
-    font-size: 30px;
+    font-size: 2vw;
     margin-top: -10px;
+    text-align: center;
     
   }
   .hero-container > h3 {
-    color: rgb(95, 89, 89);
-    font-size: 50px;
+    color:darkkhaki;
+    font-size: 3vw;
     margin-top: -10px;
+    margin-bottom: 15px;
     
   }
   
   .hero-container > p {
     margin-top: 8px;
     color: #fff;
-    font-size: 40px;
+    font-size: 5vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
   }
@@ -60,37 +62,17 @@ video {
     margin-left: 4px;
   }
   
-  @media screen and (max-width: 960px) {
-    .hero-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
-    .hero-container > h3 {
-      font-size: 30px;
-     
-      
-    }
+@media screen and (max-width:960px){
+  .hero-container h1{
+    font-size: 80px;
+    margin-top: -200px;
   }
-  
-  @media screen and (max-width: 768px) {
-    .hero-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-    .hero-container > h3 {
-      font-size: 30px;
-    }
-  
-    .hero-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
+  .hero-container > p{
+    font-size: 40px;
+    
   }
+  .hero-container > h4{
+    font-size: 15px;
+    
+  }
+}
