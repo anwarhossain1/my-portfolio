@@ -21,10 +21,22 @@
     font-size: 20px;
 }
 
+.footer__container a{
+    text-decoration: none;
+    color: brown;
+
+
+}
+.footer__container a:hover{
+    text-decoration: underline;
+    color: rgb(224, 132, 11);
+
+
+}
+
 
 .footer__container li{
     display: inline;
-    color: blue;
     padding: 5px 5px;
 }
 
@@ -32,3 +44,4 @@
     width: 40px;
     height: 40px;
 }
+

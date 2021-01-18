@@ -1,5 +1,6 @@
 import React from 'react';
 import classes from './Aboutme.module.css';
+import {Link} from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 const Aboutme = () => {
     return (
@@ -57,9 +58,8 @@ const Aboutme = () => {
             <div className={classes.communicate}>
                 <h1>Get In Touch</h1>
                 <h3>If You Have Any Problem Ragarding Any Project<br/>Feel free to reach out to me!</h3>
-                <button variant='primary' size="lg"><span>Contact Me</span></button>
-                <button><span>Portfolio</span></button>
-
+                <Link to="/contact"><button variant='primary' size="lg"><span>Contact Me</span></button></Link>
+                <Link to="/projects"><button><span>Portfolio</span></button></Link>
 
 
             </div>

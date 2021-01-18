@@ -35,12 +35,14 @@ function projects() {
             </div>
             <div className={classes.projects}>
                 <h3><strong>Burger-khabo.com</strong></h3>
+                <p>This is a simple e-commerce type website from where user can build their burger's based on their
+                    choices and also order them.</p>
                 <ul>
                     <li>Used React as Front End Design</li>
                     <li>For state management I have used Redux</li>
-                    <li>For storage i have used localStroge service</li>
+                    <li>For storage i have used Firebase services</li>
                 </ul>
-                <Link to={{pathname:"https://github.com/anwarhossain1/react-ecommerce-prac"}} target="_blank"><button>GitHub</button></Link>
+                <Link to={{pathname:"https://github.com/anwarhossain1/burger-khabo"}} target="_blank"><button>GitHub</button></Link>
                         <Link to={{pathname:"https://burger-khabo.netlify.app/"}} target="_blank"><button>Live Demo</button></Link>
             </div>
             </div>
