@@ -1,8 +1,8 @@
 # my-portfolio
 
 This is simply a portfolio website i have created for showcasting my projects. 
-Live Website:- 
-https://anwarhossain1.netlify.app/
+<a href="https://anwarhossain1.netlify.app/" target="_blank">Live Website</a>
+
 
 
 This website is based on,
