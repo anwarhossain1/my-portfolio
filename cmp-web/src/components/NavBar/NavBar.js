@@ -36,11 +36,7 @@ function NavBar() {
                    Contact Me
                    </Link>
                </li>
-               {/* <li className='nav-item'>
-                   <Link className='nav-links' to='/' onClick={onClickHandler} >
-                   My Resume
-                   </Link>
-               </li> */}
+             
 
 
 

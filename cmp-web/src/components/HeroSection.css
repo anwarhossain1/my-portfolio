@@ -22,20 +22,20 @@ video {
   }
   
   .hero-container > h1 {
-    color: #fff;
+    color: darkkhaki;
     font-size: 7vw;
     margin-top: -3px;
     
   }
   .hero-container > h4 {
-    color: #fff;
+    color: #F2EDD7FF;
     font-size: 2vw;
     margin-top: -10px;
     text-align: center;
     
   }
   .hero-container > h3 {
-    color:darkkhaki;
+    color:rgb(248, 91, 0);
     font-size: 3vw;
     margin-top: -10px;
     margin-bottom: 15px;
